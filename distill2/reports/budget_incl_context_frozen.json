@@ -1,0 +1,52 @@
+{
+ "note": "frozen mode (requires_grad=False): sliced/pathb/teacher + CPU from the 2026-10-03 run",
+ "budgets_gb": [
+  4,
+  6,
+  8,
+  12,
+  16
+ ],
+ "gpu": "NVIDIA GeForce RTX 5080",
+ "torch": "2.10.0+cu128",
+ "other_processes_mib": 1316.0,
+ "context_mib": 303.0,
+ "total_mib": 16303.0,
+ "sliced": {
+  "gflops_S4": 7496.8,
+  "4": 4,
+  "6": 16,
+  "8": 32,
+  "12": 48,
+  "16": 72
+ },
+ "pathb": {
+  "gflops_S4": 9919.2,
+  "4": 1,
+  "6": 4,
+  "8": 20,
+  "12": 48,
+  "16": 64
+ },
+ "teacher": {
+  "gflops_S4": 16814.3,
+  "4": 0,
+  "6": 1,
+  "8": 4,
+  "12": 12,
+  "16": 28
+ },
+ "cpu_latency": {
+  "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "threads": 8,
+  "sliced_ms_S2": 7403.1,
+  "teacher_ms_S2": 16233.7
+ },
+ "sliced_int8": {
+  "4": 8,
+  "6": 20,
+  "8": 32,
+  "12": 56,
+  "16": 80
+ }
+}

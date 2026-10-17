@@ -1,0 +1,25 @@
+# Checkpoints and data are not stored in this repository, except the released models in weights/ (Git LFS)
+*.pt
+!weights/*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+runs/
+abl/
+data/
+teacher_dataset*/
+co3d*/
+vggt_input*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments and editors
+.venv/
+venv/
+.vscode/
+.idea/
